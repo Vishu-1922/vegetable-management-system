@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FarmKart</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1500&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  color: #ffffff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #1b5e20, #4caf50);
+  padding: 15px 60px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.4);
+}
+
+nav aside {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+nav aside a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+nav aside a:hover {
+  color: #dcedc8;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+  transform: scale(1.05);
+}
+
+button {
+  background: transparent;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  color: #dcedc8;
+}
+
+/* Hero text styling */
+.hero-text {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #f0fff0;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text {
+    font-size: 1.5rem;
+  }
+}
+</style>
+</head>
+<body>
+  <nav>
+    <img id="home" alt="FarmKart" src="https://sdmntprcentralindia.oaiusercontent.com/files/00000000-9108-6208-8591-f17615cd085d/raw?se=2025-10-14T16%3A53%3A08Z&sp=r&sv=2024-08-04&sr=b&scid=6405f939-1e0f-5c3c-8846-46ab096d3e6c&skoid=d5627e4c-566b-4761-a954-54993b0ed17b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-13T21%3A28%3A30Z&ske=2025-10-14T21%3A28%3A30Z&sks=b&skv=2024-08-04&sig=9HBGkPQTtvGdCk9D8mZp9LX%2BHuWYMiqFgI94HI4LEEQ%3D">
+    <aside>
+      <a href="index.html">Home</a>
+      <a href="about.jsp">About</a>
+      <a href="contact.jsp">Contact</a>
+      <a href="register.jsp">Register</a>
+      <a href="login.jsp">login</a>
+      
+    </aside>
+  </nav>
+
+  <div class="hero-text" >
+    From Our Farms to Your Home – Fresh, Healthy, and Organic Every Day
+  </div>
+</body>
+</html>

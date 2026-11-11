@@ -1,0 +1,10 @@
+127.0.0.1 - - [15/Oct/2025:16:21:54 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [15/Oct/2025:16:21:55 +0530] "GET /FarmKart/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Oct/2025:16:22:09 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [15/Oct/2025:16:24:40 +0530] "GET /FarmKart/about.jsp HTTP/1.1" 200 4246
+0:0:0:0:0:0:0:1 - - [15/Oct/2025:16:26:01 +0530] "GET /FarmKart/contact.jsp HTTP/1.1" 200 4892
+0:0:0:0:0:0:0:1 - - [15/Oct/2025:16:26:15 +0530] "GET /FarmKart/login.jsp HTTP/1.1" 200 2948
+0:0:0:0:0:0:0:1 - - [15/Oct/2025:17:30:52 +0530] "POST /FarmKart/login.jsp HTTP/1.1" 200 3595
+0:0:0:0:0:0:0:1 - - [15/Oct/2025:17:31:07 +0530] "POST /FarmKart/userVegetables.jsp HTTP/1.1" 200 5247
+0:0:0:0:0:0:0:1 - - [15/Oct/2025:17:32:53 +0530] "POST /FarmKart/addCart.jsp HTTP/1.1" 200 4314
+0:0:0:0:0:0:0:1 - - [15/Oct/2025:18:38:24 +0530] "GET /FarmKart/login.jsp HTTP/1.1" 200 2948
